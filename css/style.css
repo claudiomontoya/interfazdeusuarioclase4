@@ -9,6 +9,7 @@ body {
 .contenedor_ppal {
     max-width: 1024px;
     margin: 0px auto;
+    position: relative;
     background-color: #fff;
     -webkit-box-shadow: 0 -40px 10px 0 rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0 -40px 10px 0 rgba(0, 0, 0, 0.5);
@@ -89,4 +90,46 @@ a.vmas {
 
 .desc_c.cuatro {
     background-image: url(../images/desc_corta_4.jpg);
+}
+
+header a.logo {
+    display: block;
+    position: absolute;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 100%;
+    display: block;
+    position: absolute;
+    background-color: #ff5862;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffd6d8;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.limpiar {
+    clear: both;
+    line-height: 1px;
+}
+
+.descripcion_up,
+.descripcion_low {
+    float: left;
+    width: 100%;
+}
+
+.descripcion_up {
+    padding-bottom: 15px;
 }
